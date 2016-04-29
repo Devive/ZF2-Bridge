@@ -21,7 +21,7 @@ return [
         ),
 
         'factories' => [
-            'ControllerLoader' => __NAMESPACE__ . '\\Service\\ControllerLoaderFactory',
+            'ControllerManager' => __NAMESPACE__ . '\\Service\\ControllerLoaderFactory',
             'DiCache' => __NAMESPACE__ . '\\Service\\CacheFactory',
         ],
     ],
